@@ -1,0 +1,36 @@
+#section2{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  .col-md-4{
+    padding-right: 63px;
+    img{
+      width: 100%;
+    }
+  }
+  .col-md-8{
+    padding: 63px;
+    .headerText{
+      font-size: 36px;
+      line-height: 54px;
+      letter-spacing: -1%;
+      color: #192252;
+      font-family: "Montserrat", sans-serif;
+      margin-bottom: 24px;
+    }
+    .bodyText{
+      font-family: "Inter", sans-serif;
+      font-size: 18px;
+      line-height: 27px;
+      color: #848FAC;
+      margin-bottom: 16px;
+    }
+    .btn{
+      margin-top: 16px;
+      font-family: "Inter", sans-serif;
+      font-size: 16px;
+      line-height: 19px;
+      background-color: #0E1734;
+      padding: 16px 32px;
+    }
+  }
+}

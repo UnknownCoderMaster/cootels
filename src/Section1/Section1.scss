@@ -1,0 +1,43 @@
+.row{
+  padding-top: 80px;
+  padding-bottom: 96px;
+  .col-md-6:first-child{
+    display: flex;
+    align-items: center;
+    padding-right: 35px;
+    .headerText{
+      font-family: "Montserrat", sans-serif;
+      font-size: 48px;
+      font-weight: 600;
+      line-height: 72px;
+      letter-spacing: -1%;
+      color: #192252;
+      margin-bottom: 24px;
+    }
+    .bodyText{
+      font-family: "Inter",sans-serif;
+      font-size: 18px;
+      line-height: 27px;
+      color: #848FAC;
+      margin-bottom: 32px;
+    }
+    .btn{
+      font-family: "Inter", sans-serif;
+      background-color: #0E1734;
+      font-size: 16px;
+      line-height: 19px;
+      padding: 16px 32px;
+    }
+  }
+  .col-md-6:last-child{
+    img{
+      width: 30%;
+      height: 100%;
+      margin-left: 1%;
+      box-shadow: 0 5px 5px #aab1a7;
+    }
+    img:nth-child(2){
+      margin-top: 82px;
+    }
+  }
+}

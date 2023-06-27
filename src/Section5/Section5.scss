@@ -1,0 +1,49 @@
+#Section5{
+    .col-md-12{
+      padding: 80px 0;
+      .headerText{
+        font-family: "Montserrat", sans-serif;
+        font-size: 36px;
+        line-height: 54px;
+        letter-spacing: -1%;
+        color: #192252;
+        margin-bottom: 24px;
+      }
+      .bodyText{
+        font-family: "Inter", sans-serif;
+        font-size: 18px;
+        line-height: 27px;
+        color: #848FAC;
+        margin-bottom: 32px;
+      }
+      .btn1{
+        background-color: #0E1734;
+        font-family: "Inter", sans-serif;
+        font-size: 16px;
+        line-height: 19px;
+        padding: 16px 32px;
+      }
+    }
+    .col-md-4{
+      .card{
+        .card-header{
+          padding: 0;
+        }
+        .card-body{
+          h6{
+            font-family: "Montserrat", sans-serif;
+            font-size: 24px;
+            line-height: 36px;
+            margin-bottom: 16px;
+          }
+          p{
+            font-family: "Inter", sans-serif;
+            font-size: 18px;
+            line-height: 27px;
+            color: #848FAC;
+            margin-bottom: 32px;
+          }
+        }
+      }
+    }
+}
